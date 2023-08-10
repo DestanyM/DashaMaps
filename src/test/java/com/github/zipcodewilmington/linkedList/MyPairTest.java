@@ -28,5 +28,7 @@ class MyPairTest {
     void testEquals() {
         MyPair myPair = new MyPair("no", 1);
         MyPair myPair1 = new MyPair("no", 1);
+        Assert.assertEquals(myPair, myPair1);
+
     }
 }
